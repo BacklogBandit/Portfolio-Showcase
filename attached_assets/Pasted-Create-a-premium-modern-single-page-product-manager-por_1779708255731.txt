@@ -1,0 +1,91 @@
+Create a premium, modern, single-page product manager portfolio website for Samarjeet Sharma. The design must be a seamless vertical scroll with an immersive, high-end "Lo-Fi Cyberpunk Meets Retro-Futurism" aesthetic. Use a dark mode theme with rich indigo and deep violet backgrounds (#0F0C1B, #1A1528), utilizing vibrant neon pink (#FF2E93) and sunset orange (#FF6B35) for dynamic accents, glowing borders, and primary call-to-actions. 
+
+
+
+Implement the following precise structure and features:
+
+
+
+1. HERO SECTION (Immersive Introduction)
+
+- Display the name: "Samarjeet Sharma" in a bold, modern sans-serif typography.
+
+- Subtitle / Hero Copy: "Blending an engineering background with a passion for building intelligent, scalable software. From architecting data-driven systems to designing seamless user experiences, I turn complex technical challenges into intuitive products. Explore my portfolio to see how I bridge business strategy and deep tech to build what's next."
+
+- Layout & Animation: A striking header image placeholder (styled to match the uploaded neon/cyberpunk aesthetic) that elegantly fades away or shrinks via an opacity scroll-linked transition as the user scrolls down.
+
+- Interaction: Dual CTA buttons with smooth hover glows: "View My Work" (Primary - scroll anchor to Work section) and "Get in Touch" (Secondary - scroll anchor to Contact).
+
+
+
+2. ABOUT ME SECTION (The Journey)
+
+- A concise, high-impact narrative highlighting a unique professional trajectory.
+
+- Focus on the evolution from an engineering core to managing intelligent software products, bridging deep tech with clear business strategies. Keep it punchy, authentic, and laced with a personal touch.
+
+
+
+3. WORK EXPERIENCE SECTION (Core Product Impact)
+
+- Display a clean timeline or grid detailing major product achievements. Each item must highlight ownership and technical product management skills.
+
+- Core Core Projects to feature:
+
+  * Conversational Intelligence Platform
+
+  * LLM-Driven Lead Scoring & Intelligent Lead Routing Systems
+
+  * High-Conversion Meeting Scheduler Component
+
+  * Productivity-Focused Chrome Extension / Plugin
+
+  * Automated AI Hiring Platform
+
+  * Architecture: Setting up an end-to-end Mixpanel Data Analytics Pipeline
+
+- Interaction Detail: Every tile must be clickable. Clicking a tile opens a smooth, modern modal overlay containing an internal scrollable iframe (or clean placeholder container) that allows the user to read the detailed breakdown without leaving the main portfolio page.
+
+
+
+4. PERSONAL PROJECTS SECTION (Interactive Grid)
+
+- Create a visual grid of interactive cards/tiles for the following case studies:
+
+  * Groww: Curbing High Abandonment Rates
+
+  * DNS Management Solution Architecture
+
+  * Google News: User Growth Strategy
+
+  * PulseSync: Automated Garmin Fitness Data Integration Pipeline
+
+  * Apollo.io Teardown & Complete Customer Journey Mapping
+
+- Interaction Detail: Every tile must be clickable. Clicking a tile opens a smooth, modern modal overlay containing an internal scrollable iframe (or clean placeholder container) that allows the user to read the detailed breakdown without leaving the main portfolio page.
+
+
+
+5. SKILLS & TECHNOLOGIES
+
+- Group skills into clean, scannable micro-badges or categorized chips:
+
+  * Product & Analytics: Product Strategy, Roadmap Ownership, Mixpanel, SQL
+
+  * Tech Stack & Architecture: JavaScript, Node.js, React, Docker, InfluxDB, Grafana, System Design
+
+
+
+6. CO-CURRICULARS & ACHIEVEMENTS
+
+- A dedicated, clean section highlighting athletic endurance achievements (such as half-marathons), engineering milestones, and continuous technical upskilling.
+
+
+
+7. CONTACT & FOOTER
+
+- Clean, minimalist footer containing professional links (LinkedIn, GitHub, Email) with glowing icon hover states.
+
+
+
+Ensure the entire page is fully responsive, features smooth scrolling, leverages glassmorphism effects (frosted glass panels with subtle neon borders) for content sections, and maintains an ultra-clean, fast-loading, professional yet incredibly distinct aesthetic.

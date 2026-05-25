@@ -1,0 +1,88 @@
+You are an expert Frontend Engineer and UI/UX Designer specializing in clean, hyper-responsive, high-fidelity developer dashboards and interactive portfolios. 
+
+Your task is to build a beautiful, fully complete Single-Page React Application using Tailwind CSS, Recharts, Lucide Icons, and Framer Motion. This site functions as an elite, interactive Product Management Portfolio for Samarjeet Sharma.
+
+---
+
+## 1. BRANDING, COLOR SYSTEM & TYPOGRAPHY
+
+### A. Color Palette (As Requested)
+The interface must feature an adapted, readable dark background accented by soft, premium pastel tones. Do not use pure pitch black or harsh white. Prevent dull, unreadable body copies by enforcing strict text contrast rules:
+- **Primary Background**: High-end Deep Charcoal-Slate (`bg-[#111216]` or `bg-[#16171d]`)
+- **Card Backgrounds**: Subtle glassmorphism overlays (`bg-[#1c1d24]/80` with a crisp border element `border-[#2a2c38]`)
+- **Primary Text**: Deeply readable soft white (`text-slate-100`)
+- **Accent 1 (Pastel Purple)**: `#C5ADC5` (Used for primary branding elements, active selection states, and main titles)
+- **Accent 2 (Light Steel Blue)**: `#B2B5E0` (Used for framework tags, subheadings, and secondary interactive states)
+- **Muted Body Text**: High-contrast readable gray (`text-slate-300`) — Ensure body text is distinct and perfectly legible against deep card backdrops.
+
+### B. Typography & Font Styling (Stripe-Inspired)
+Emulate the soft, geometric, ultra-premium typographic layout seen on Stripe's core landing systems. 
+- Integrate and declare clean, soft-geometric sans-serif type scaling (`font-sans` maps structurally to Inter or system-level SF Pro / Segoe UI with slightly rounded geometric rendering).
+- Use generous line-heights (`leading-relaxed`), precise negative tracking adjustments for large hero headers (`tracking-tight`), and distinct medium weights for body paragraphs to ensure premium, high-density legibility.
+
+---
+
+## 2. RESPONSIVE DESIGN & VIEWPORT ADAPTATION
+The application must be completely fluid, handling dynamic container re-flows gracefully:
+- **Global Constraints**: Use `w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8` to enclose core layouts safely. Prevent any horizontal micro-scrolling or canvas cutoff issues on mobile layouts.
+- **Flex-to-Grid Transitions**: Grid systems must automatically scale smoothly (`grid-cols-1 md:grid-cols-2 lg:grid-cols-3`). Use responsive padding utilities to ensure crisp framing on mobile viewports.
+
+---
+
+## 3. PAGE VIEWPORT STRUCTURE & CONTENT MODULES
+
+Implement a beautiful glassmorphism top navigation layout (`backdrop-blur-md bg-[#16171d]/75 sticky top-0 z-50 border-b border-[#2a2c38]`) managing a core active-state controller (`activeTab`) across 4 key operational sections:
+
+### SECTION 01: Hero & Vision
+- Left Column: Stark, geometry-first typography layout displaying: "Samarjeet Sharma" in Accent 1 (`#C5ADC5`), followed by a bold descriptor subtitle: "AI Product Manager. Systems Architect. Growth Specialist." 
+- Right Column: A minimalist decorative terminal window or a fluid card framing Samarjeet's professional focus profile.
+- Action elements: Two crisp action buttons side-by-side ("Explore Systems Workspace" and "Get in Touch") using the requested palette accents.
+
+### SECTION 02: Core Technical Work Projects (Updated Structure)
+*PM Decision/Structural Overhaul*: Do not create a single corporate wrapper node labeled "SuperAGI" or separate sub-sections for professional history. Instead, immediately surface an even, large-format multi-column layout showcasing the deep technical systems Samarjeet has built. Each system must be rendered inside a premium, large-scale interactive tile:
+
+#### Tile 1: AI-Powered Lead Scoring & Routing Engine
+- **Core Narrative**: Orchestrated a dual-layer predictive lead scoring matrix balancing firmographic ICP vectors against dynamic behavioral intent to eliminate lead leakage.
+- **Embedded Interactive Feature**: A live **Behavioral Decay Math Simulator**. Render a clear mathematical display of the decay formula:
+  $$S_{\text{behavioral}}(t) = \sum_{i=1}^{n} w_i \times 0.5^{\frac{\Delta t_i}{\tau}}$$
+  Provide three live Tailwind slider components mapping properties with real-time recalculations:
+  1. *Initial Weight ($w_i$)*: Slider (0 to 100 points)
+  2. *Days Elapsed ($\Delta t_i$)*: Slider (0 to 90 days)
+  3. *Half-Life Decay Parameter ($\tau$)*: Slider (14 to 30 days)
+  Display the final dynamic score result updating instantly. Below it, provide an interactive **Recall.ai Diarization Comparison Matrix** allowing users to click between *Perfect Diarization* (100% accurate, multi-stream isolated audio tracking), *Speaker Timeline Diarization* (API telemetry-tied, medium accuracy), and *Standard Machine Diarization* (Single-track vocal characteristics tracking, low-to-medium accuracy) to show architectural PM trade-offs.
+
+#### Tile 2: Conversational Intelligence Platform
+- **Core Narrative**: Devised and scaled an AI call analysis framework leveraging fine-tuned sentence-level transformer models (RoBERTa/DeBERTa) alongside fast rule-based lexicon layers. Achieved a **15% lift in product adoption** and a **35% increase in billing volume** while automating customer discussion capture to slash manual operational hours by **95%**.
+
+#### Tile 3: 0-to-1 High-Conversion Meeting Scheduler
+- **Core Narrative**: Launched a zero-to-one native meeting scheduler featuring advanced multi-timezone routing loops, webhooks, calendar sync frameworks, and white-labeled booking structures. Contributed to a **40% increase in demo conversions** and shipped a high-performance Chrome plugin extending CRM utility directly inside LinkedIn, Gmail, and Salesforce profiles.
+
+#### Tile 4: AI Agent Sourcing & Hiring Platform
+- **Core Narrative**: Conceptualized and shipped a multi-channel AI autonomous agent MVP within 3 months (beating the 6-month historical baseline). Conducted 30+ comprehensive user interviews to engineer real-time profiling alerts and tagging pipelines, generating over **$10K+ in quarterly revenue growth** and cutting qualification turnaround times by **50%**.
+
+#### Tile 5: Product Analytics & Mixpanel Tracking Architecture
+- **Core Narrative**: Commanded a 4-member cross-functional engineering team to build an end-to-end telemetry architecture map tracking **~530 distinct user behavioral actions**. Provisioned custom product health dashboards on Mixpanel and Metabase, saving internal product and go-to-market teams over **50 hours of manual data tracking effort weekly**.
+
+### SECTION 03: Projects & Analyses (Case Study Grid)
+Render a large card grid using standard sizing to handle Samarjeet's independent product teardowns. Each card must include an interactive click-to-expand modal displaying core PM trade-offs:
+1. **PulseSync (Garmin Fitness Telemetry Pipeline)**: A premium performance visualizer converting raw biometrics into non-siloed, privacy-first analytics. 
+   - *Must include a live Recharts line/scatter graph* mapping physiological training load (Heart Rate / BPM) and mechanical efficiency profiles (Cadence in SPM and running Pace) over distance.
+   - *Highlight the PM Trade-off Summary*: Document the explicit decommissioning of real-time GPS polyline maps due to raw export telemetry limitations to preserve bundle size under 100ms and maximize scannable workspace real estate.
+2. **Groww (Abandonment Rate Study)**: In-depth behavioral analysis mapping user dropout patterns throughout complex onboarding pipelines. Re-engineered onboarding workflows to utilize shorter, gamified, puzzle-based diagnostic matches, driving completion metrics from **55% up to 90%** and boosting revenue billings by **20% ($1.8M)**.
+3. **Apollo.io Teardown**: Deep evaluation of user acquisition loops, prospecting pipelines, and activation funnels to eliminate core workflow bottlenecks.
+4. **DNS Control Panel**: Architectural system design outlining a highly available, decentralized control panel to securely manage and track high-volume DNS records across distinct server layers.
+5. **Google Chrome Find-in-Page**: UX teardown proposing micro-interaction changes to validate input terms dynamically.
+
+### SECTION 04: Skills & Technologies (Full-Width Row Bubble Array)
+*UX Directive Overhaul*: Do not list skills as sparse, short lists, and do not use flat text rows. Group skills into clear categorical bands that span the **full container width** using dynamic, fluid bubble structures. Emulate the sleek, rounded visual look of premium cloud native/data science platforms:
+- **Languages & Core Processing**: Render rounded bubbles styled in soft backgrounds (`bg-[#b2b5e0]/10 border border-[#b2b5e0]/30 text-[#b2b5e0]`) containing: `Python`, `SQL`, `JavaScript (ES6+)`, `Node.js`, `REST APIs`, `Webhooks`, `JSON Processing`.
+- **Product Architecture & Frameworks**: Render rounded bubbles styled in soft purple backgrounds (`bg-[#c5adc5]/10 border border-[#c5adc5]/30 text-[#c5adc5]`) containing: `0-to-1 Architecture`, `System Engineering Blueprints`, `LLM Memory Architectures`, `Vector Embeddings`, `Context Engineering`, `Zod Schema Validation`, `BANT / MEDDPICC Mapping`.
+- **Growth & Analytics Infrastructure**: Render bubbles containing: `Mixpanel Telemetry`, `Metabase Dashboarding`, `A/B Testing Loops`, `Funnel Optimization`, `User Cohort Mapping`, `Retention Analytics`, `SEO / Keyword Bucketing`.
+- **Product Execution & Tools**: Render bubbles containing: `Jira Automation`, `Figma Prototyping`, `Miro Topology`, `Cursor Workflow`, `Replit Vibe Coding`, `Agile Sprint Management`.
+
+---
+
+## 4. CODE ENGINEERING STANDARDS
+- Build the entire implementation inside clean, highly visible React modules. 
+- Ensure all states (such as switching tabs, updating decay parameter sliders, or swapping diarization rows) recalculate immediately.
+- Use explicit, robust fallback values for numbers and arrays to ensure zero runtime compilation issues. Do not write lazy comment blocks like `// implement later`. Write out all logic, interactive dashboards, layout flows, and text summaries completely.
