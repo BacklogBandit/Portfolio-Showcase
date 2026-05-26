@@ -59,7 +59,7 @@ export default defineConfig(async () => {
       port,
       strictPort: isReplit,
       host: "0.0.0.0",
-      allowedHosts: true,
+      allowedHosts: true as const,
       fs: {
         strict: true,
       },
@@ -67,7 +67,7 @@ export default defineConfig(async () => {
     preview: {
       port,
       host: "0.0.0.0",
-      allowedHosts: true,
+      allowedHosts: true as const,
     },
   };
 });
