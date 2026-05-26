@@ -11,8 +11,8 @@ export default function Portfolio() {
   return (
     <div className="relative w-full overflow-hidden bg-[#111216]">
       <Navbar />
+      <Hero />
       <div className="mx-auto max-w-7xl px-6 md:px-12 flex flex-col gap-24 pb-24">
-        <Hero />
         <About />
         <WorkExperience />
         <PersonalProjects />

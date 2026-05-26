@@ -19,17 +19,10 @@ export default function About() {
 
         <div className="space-y-6 text-base md:text-lg text-foreground/60 leading-relaxed max-w-3xl">
           <p>
-            My journey wasn't a straight line. I started in Sales, learning the ultimate product truth:{" "}
-            <span className="text-foreground/85 font-medium">Understanding a customer's need is everything.</span>{" "}
-            In Consulting, I mastered translating messy stakeholder chaos into clear technical roadmaps. Today, as a Product Manager,
-            I blend an engineering core with absolute consumer first thinking to architect intelligent, scalable software.
+            I build software products and teams that go the distance. My execution is shaped by a deliberate mix of disciplines: Sales taught me to ruthlessly anchor on customer needs, Consulting turned stakeholder chaos into clean roadmaps, and an Engineering core keeps me grounded in how code actually gets built.
           </p>
           <p>
-            I swap rigid hierarchy for genuine collaboration and a touch of wit. Off the clock, I chase half-marathon personal bests,
-            surf, ride my motorcycle, and back Liverpool FC.
-          </p>
-          <p className="text-foreground/85 font-medium font-display text-lg md:text-xl">
-            I build products and teams to go the distance.
+            I skip the rigid hierarchy for flat, high-energy collaboration and when I'm not shipping features or building personal side projects, I'm usually out for a long run, planning a motorcycle trip, surfing, or backing Liverpool FC.
           </p>
         </div>
       </motion.div>
