@@ -19,7 +19,7 @@ export default function About() {
 
         <div className="space-y-6 text-base md:text-lg text-foreground/60 leading-relaxed max-w-3xl">
           <p>
-            I build software products and teams that go the distance. My execution is shaped by a deliberate mix of disciplines: Sales taught me to ruthlessly anchor on customer needs, Consulting turned stakeholder chaos into clean roadmaps, and an Engineering core keeps me grounded in how code actually gets built.
+            I build software products and teams that go the distance. My execution is shaped by a deliberate mix of disciplines: Sales taught me to deeply anchor on customer needs, Consulting turned stakeholder chaos into clean roadmaps, and an Engineering core keeps me grounded in how code actually gets built.
           </p>
           <p>
             I skip the rigid hierarchy for flat, high-energy collaboration and when I'm not shipping features or building personal side projects, I'm usually out for a long run, planning a motorcycle trip, surfing, or backing Liverpool FC.
