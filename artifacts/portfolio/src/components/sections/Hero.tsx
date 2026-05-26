@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 import profilePhoto from "@/assets/profile.jpeg";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 function WaveCanvas() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -124,9 +125,13 @@ const itemVariants = {
 };
 
 export default function Hero() {
+  const isMobile = useIsMobile();
   const { scrollY } = useScroll();
-  const heroOpacity = useTransform(scrollY, [0, 360], [1, 0]);
-  const heroY = useTransform(scrollY, [0, 360], [0, -40]);
+  const rawOpacity = useTransform(scrollY, [0, 360], [1, 0]);
+  const rawY = useTransform(scrollY, [0, 360], [0, -40]);
+
+  const heroOpacity = isMobile ? 1 : rawOpacity;
+  const heroY = isMobile ? 0 : rawY;
 
   return (
     <section
@@ -144,7 +149,7 @@ export default function Hero() {
       />
       <motion.div
         style={{ zIndex: 2, opacity: heroOpacity, y: heroY } as any}
-        className="relative w-full max-w-6xl mx-auto px-6 md:px-12 pt-28 pb-24 flex flex-col md:flex-row items-center gap-14 md:gap-20"
+        className="relative w-full max-w-7xl mx-auto px-6 md:px-12 pt-28 pb-24 flex flex-col md:flex-row items-center gap-14 md:gap-20"
       >
         <motion.div
           variants={containerVariants}

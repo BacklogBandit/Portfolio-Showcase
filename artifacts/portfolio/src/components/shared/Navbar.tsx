@@ -43,7 +43,7 @@ export default function Navbar() {
         borderBottom: scrolled ? "1px solid rgba(42,44,56,0.9)" : "1px solid transparent",
       }}
     >
-      <div className="mx-auto max-w-6xl flex items-center justify-between">
+      <div className="mx-auto max-w-7xl flex items-center justify-between">
         <a
           href="#"
           data-testid="nav-logo"
