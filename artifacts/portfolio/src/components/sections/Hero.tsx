@@ -175,7 +175,7 @@ export default function Hero() {
             className="font-display text-lg md:text-xl font-medium mb-7 tracking-wide"
             style={{ color: "#C5ADC5", opacity: 0.70 }}
           >
-            AI Product Manager.  Systems Architect.  Growth Specialist.
+            AI Product Manager.  Growth Specialist.
           </motion.p>
 
           <motion.p

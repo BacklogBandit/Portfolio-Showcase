@@ -97,7 +97,9 @@ export default function WorkExperience() {
             <span className="inline-block bg-[#C5ADC5]/10 border border-[#C5ADC5]/20 text-[#C5ADC5] px-2 py-0.5 rounded text-xs font-medium">15% Adoption ↑ · 35% Billing ↑ · 95% Ops Automation</span>
           </div>
           <p className="text-slate-300 text-sm leading-relaxed flex-grow">
-            Devised and scaled an AI call analysis framework leveraging fine-tuned sentence-level transformer models (RoBERTa/DeBERTa) alongside fast rule-based lexicon layers. Achieved a 15% lift in product adoption and a 35% increase in billing volume while automating customer discussion capture to slash manual operational hours by 95%.
+            Conceptualized and shipped an AI-powered conversational intelligence platform featuring automated meeting recorders, high-accuracy transcription, talk-time analytics, and sentiment/tonality tracking.
+            <br /><br />
+            Designed a proprietary hybrid memory layer for LLMs that optimized token usage and system memory efficiency, directly feeding high-context data into a custom AI lead scoring engine within the CRM.
           </p>
           <div className="flex flex-wrap gap-2 mt-4 pt-4 border-t border-[#2a2c38]">
             <span className="bg-[#B2B5E0]/10 border border-[#B2B5E0]/20 text-[#B2B5E0] text-xs rounded-full px-3 py-1">RoBERTa/DeBERTa</span>
