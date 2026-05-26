@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDown } from "lucide-react";
-import profilePhoto from "@assets/01A4BC5F-7706-4478-8C3E-D82A747FF1AC_1_105_c_1779708274207.jpeg";
+import profilePhoto from "@/assets/profile.jpeg";
 
 function WaveCanvas() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -120,7 +120,7 @@ const containerVariants = {
 
 const itemVariants = {
   hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] } },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] as const } },
 };
 
 export default function Hero() {
@@ -143,7 +143,7 @@ export default function Hero() {
         }}
       />
       <motion.div
-        style={{ zIndex: 2, opacity: heroOpacity, y: heroY } as React.CSSProperties}
+        style={{ zIndex: 2, opacity: heroOpacity, y: heroY } as any}
         className="relative w-full max-w-6xl mx-auto px-6 md:px-12 pt-28 pb-24 flex flex-col md:flex-row items-center gap-14 md:gap-20"
       >
         <motion.div
